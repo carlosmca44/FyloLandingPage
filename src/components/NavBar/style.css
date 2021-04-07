@@ -1,0 +1,25 @@
+.navbar {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin: 5%;
+}
+
+.nav-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.nav-buttons p {
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 376px) {
+    .logo {
+        max-width: 100px;
+    }
+}
