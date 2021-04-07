@@ -1,18 +1,14 @@
 import "./App.css"
+import FLanding from "./sections/landings/first";
+import SLanding from "./sections/landings/second";
+import NavBar from "./sections/NavBar"
 
 function App() {
   return (
     <div>
-      
-  Features
-  Team
-  Sign In
-
-  All your files in one secure location, accessible anywhere.
-
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
+      <NavBar/>
+      <FLanding />
+      <SLanding />
 
   Get Started
 
@@ -53,8 +49,8 @@ function App() {
 
   <footer>
     <p className="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="/#">Your Name Here</a>.
     </p>
   </footer>      
     </div>
