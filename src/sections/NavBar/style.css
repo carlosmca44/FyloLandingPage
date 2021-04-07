@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     margin: 5%;
+    margin-bottom: 1%;
 }
 
 .nav-buttons {
@@ -14,7 +15,8 @@
 }
 
 .nav-buttons p {
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
 }
 

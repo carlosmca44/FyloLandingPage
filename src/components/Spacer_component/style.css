@@ -1,0 +1,11 @@
+.space {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 376px) {
+    .space {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

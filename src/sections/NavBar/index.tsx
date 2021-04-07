@@ -1,5 +1,5 @@
 import { FC } from "react"
-import Spacer from "../Spacer"
+import Spacer from "../../components/Spacer_component"
 import "./style.css"
 
 const NavBar: FC = () => {
