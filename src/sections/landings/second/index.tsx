@@ -4,16 +4,24 @@ import "../style.css"
 
 const SLanding: FC = () => {
   return (
-    <Landing>
-      <>
-        <div className="f-grid">
-          some3
-        </div>
-        <div className="s-grid">
-          some4
-        </div>
+    <>
+      <img 
+        style={{marginBottom: -15}} 
+        src={ window.screen.width < 376 
+          ? "/images/bg-curve-mobile.svg" 
+          : "/images/bg-curve-desktop.svg" } 
+          alt="" />
+      <Landing backgroundC="hsl(240, 75%, 98%)">
+        <>
+          <div>
+            some3
+          </div>
+          <div>
+            some4
+          </div>
+        </>
+      </Landing>
       </>
-    </Landing>
   )
 }
 
