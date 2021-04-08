@@ -1,5 +1,5 @@
 import { FC } from "react"
-import Landing from "../../../components/landing_component"
+import Landing from "../../../components/Landing_component"
 import "../style.css"
 
 const SLanding: FC = () => {
