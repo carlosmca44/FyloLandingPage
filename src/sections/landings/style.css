@@ -1,3 +1,14 @@
 .s-landing-backgroundColor {
     background-color: hsl(240, 75%, 98%);
 }
+
+.text-landing {
+    display: inherit;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 376px) {
+    .text-landing p, h1 {
+        text-align: center;
+    }
+}

@@ -1,15 +1,19 @@
 .container {
     width: auto;
-    height: 80vh;
+    height: auto;
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
     align-items: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
 }
 
 @media only screen and (max-width: 376px) {
     .container {
-        height: 105vh;
+        height: auto;
         flex-direction: column-reverse;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 }

@@ -7,7 +7,7 @@ const FLanding: FC = () => {
   return (
     <Landing>
         <>
-          <div>
+          <div className="text-landing">
             <h1>
                 All your files in one secure location, accessible anywhere.
             </h1>
