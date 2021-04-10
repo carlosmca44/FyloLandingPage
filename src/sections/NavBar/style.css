@@ -1,7 +1,6 @@
 .navbar {
     height: auto;
     width: auto;
-    background-color: transparent;
     display: flex;
     align-items: center;
     margin: 5%;
@@ -9,9 +8,7 @@
 }
 
 .nav-buttons {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    
+    display: inherit;
 }
 
 .nav-buttons p {
