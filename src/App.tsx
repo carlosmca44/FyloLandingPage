@@ -2,20 +2,15 @@ import "./App.css"
 import FLanding from "./sections/landings/first";
 import SLanding from "./sections/landings/second";
 import NavBar from "./sections/NavBar"
+import PreFooter from "./sections/PreFooter";
 
 function App() {
   return (
     <div>
-      <NavBar/>
+      <NavBar />
       <FLanding />
       <SLanding />
-
-  Get early access today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. 
-  If you have any questions, our support team would be happy to help you.
-
-  Get Started For Free
+      <PreFooter />
 
   Phone: +1-543-123-4567
   example@fylo.com

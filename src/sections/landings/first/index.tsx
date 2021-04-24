@@ -16,7 +16,9 @@ const FLanding: FC = () => {
                 Access them wherever you need, share and collaborate with friends, 
                 family, and co-workers.
             </p>
-            <Form placeholder="Enter your email..." buttonText="Get Started" direction="row" />
+            <div className="form-section">
+              <Form placeholder="Enter your email..." buttonText="Get Started" />
+            </div>
           </div>
 
           <div className="image-landing">

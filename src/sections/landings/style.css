@@ -4,6 +4,10 @@
     width: 50%;
 }
 
+.form-section {
+    flex-direction: row;
+}
+
 .text-landing-first p {
     margin-right: 150px;
 }
@@ -44,6 +48,10 @@
 @media screen and (max-width: 376px) {
     .text-landing-first {
         width: 100%;
+    }
+
+    .form-section {
+        flex-direction: column;
     }
 
     .text-landing-first p, h1 {

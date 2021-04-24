@@ -5,18 +5,21 @@ import "./style.css"
 type FormProps = {
     placeholder: string,
     buttonText: string,
-    direction: string
+    marginTop?: string,
+    boxShadow?: string
 }
 
 const Form: FC<FormProps> = ({
     placeholder,
-    buttonText
+    buttonText,
+    marginTop,
+    boxShadow
 }) => {
   return (
       <form className="container1">
           <input type="email" placeholder={placeholder} />
           <Spacer />
-          <button type="submit">
+          <button type="submit" style={{marginTop:marginTop, boxShadow:boxShadow}}>
               {buttonText}
           </button>
           <Spacer />

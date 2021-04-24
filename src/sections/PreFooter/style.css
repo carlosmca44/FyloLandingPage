@@ -1,0 +1,47 @@
+.pre-container {
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    align-items: center;
+    color: hsl(240, 75%, 98%);
+}
+
+.description-text-side {
+    width: 50%;
+}
+
+.description-text-side p {
+    margin-right: 150px;
+}
+
+.form-side {
+    width: 50%;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 376px) {
+    .pre-container {
+        flex-direction: column;
+        padding: 10%;
+    }
+
+    .description-text-side {
+        width: auto;
+    }
+
+    .description-text-side h1 {
+        font-size: 1.1rem;
+    }
+    
+    .description-text-side p {
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .form-side {
+        width: 100%;
+    }
+}
