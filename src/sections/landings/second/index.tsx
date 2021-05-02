@@ -1,5 +1,5 @@
 import { FC } from "react"
-import Landing from "../../../components/Landing_component"
+import Landing from "../../../components/Landing_component/index"
 import PresentationCard from "../../../components/PresentationCard_component/index"
 import "../style.css"
 
