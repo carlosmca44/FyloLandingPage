@@ -1,6 +1,7 @@
 .container1 {
     display: flex;
     width: auto;
+    flex-direction: inherit;
 }
 
 button {

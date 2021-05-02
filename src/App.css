@@ -12,5 +12,10 @@ html, body {
     font-family: "Open Sans", "Roboto", sans-serif;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+h1, button, input {
+    font-family: "Raleway", "Open Sans", "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 2.2em;
+}
