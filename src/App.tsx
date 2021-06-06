@@ -1,9 +1,9 @@
 import "./App.css"
-import Footer from "./sections/Footer/inde";
-import FLanding from "./sections/landings/first";
-import SLanding from "./sections/landings/second";
-import NavBar from "./sections/NavBar"
-import PreFooter from "./sections/PreFooter";
+import Footer from "./components/Footer/inde";
+import FLanding from "./components/landings/first";
+import SLanding from "./components/landings/second";
+import NavBar from "./components/NavBar"
+import PreFooter from "./components/PreFooter";
 
 function App() {
   return (
