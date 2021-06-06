@@ -1,6 +1,6 @@
 import { FC } from "react"
-import Landing from "../../../components/Landing_component/index"
-import PresentationCard from "../../../components/PresentationCard_component/index"
+import Landing from "../Landing_component/index"
+import PresentationCard from "../PresentationCard_component/index"
 import "../style.css"
 
 const SLanding: FC = () => {
