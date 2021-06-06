@@ -1,5 +1,5 @@
 import { FC } from "react"
-import Spacer from "../../components/Spacer_component"
+import Spacer from "../Spacer_component"
 import SocialNetworks from "./socialNetworks"
 import "./style.css"
 

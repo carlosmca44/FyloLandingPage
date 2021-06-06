@@ -1,6 +1,6 @@
 import { FC } from "react"
 import Form from "../Form_component"
-import Landing from "../Landing_component/index"
+import Landing from "../Landing_component"
 import "../style.css"
 
 const FLanding: FC = () => {
