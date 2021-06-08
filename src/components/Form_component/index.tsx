@@ -15,16 +15,16 @@ const Form: FC<FormProps> = ({
     marginTop,
     boxShadow
 }) => {
-  return (
-      <form className="container1">
-          <input type="email" placeholder={placeholder} />
-          <Spacer />
-          <button type="submit" style={{marginTop:marginTop, boxShadow:boxShadow}}>
-              {buttonText}
-          </button>
-          <Spacer />
-      </form>
-  )
+    return (
+        <form className="container1">
+            <input type="email" placeholder={placeholder} />
+            <Spacer />
+            <button type="submit" style={{marginTop:marginTop, boxShadow:boxShadow}}>
+                {buttonText}
+            </button>
+            <Spacer />
+        </form>
+    )    
 }
 
 export default Form

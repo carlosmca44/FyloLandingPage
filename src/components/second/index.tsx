@@ -1,5 +1,4 @@
 import { FC } from "react"
-import Landing from "../Landing_component/index"
 import PresentationCard from "../PresentationCard_component/index"
 import "../style.css"
 
@@ -12,8 +11,9 @@ const SLanding: FC = () => {
           ? "/images/bg-curve-mobile.svg" 
           : "/images/bg-curve-desktop.svg" } 
           alt="" />
-      <Landing backgroundC="hsl(240, 75%, 98%)">
-        <>
+
+        <div style={{backgroundColor: "hsl(240, 75%, 98%)"}}>
+      <div className="container">
           <div className="text-landing-second">
             <h1>              
               Stay productive, wherever you are
@@ -40,9 +40,9 @@ const SLanding: FC = () => {
           <div className="image-landing">
             <img width="100%" src="/images/illustration-2.svg" alt="" />
           </div>
-        </>
-      </Landing>
-      </>
+        </div>
+      </div>
+    </>
   )
 }
 
