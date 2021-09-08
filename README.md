@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/carlosmca44/FyloLandingPage_FrontendMentor)
-- Live Site URL: [](https://fylo-landing-page-frontend-mentor-49pfn2725-carlosmca44.vercel.app/)
+- Live Site URL: [Here](https://fylo-landing-page-frontend-mentor-49pfn2725-carlosmca44.vercel.app/)
 
 ## My process
 
